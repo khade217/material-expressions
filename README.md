@@ -36,7 +36,7 @@ A lightweight, responsive web demo showcasing Material 3 expressive design princ
 ├── script.js       # Vanilla JS logic and mock JSON data
 └── README.md       # Project documentation
 ```
-
+[material-expressions](https://khade217.github.io/material-expressions/)
 ## 📸 Preview
 *(Add a screenshot of your project here by uploading an image to the repo and using `![Demo](path-to-image.png)`)*
 
