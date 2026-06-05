@@ -1,0 +1,85 @@
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: #e8f0fe;
+}
+
+/* Material 3 Expressive Button */
+.btn-expressive {
+  background-color: #673ab7;
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 9999px;
+  box-shadow: 0 4px 12px rgba(103, 58, 183, 0.3);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1.5);
+  border: none;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+}
+
+.btn-expressive:hover {
+  background-color: #512da8;
+  color: white;
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 6px 16px rgba(103, 58, 183, 0.4);
+}
+
+.btn-expressive:active {
+  transform: translateY(0) scale(0.98);
+  box-shadow: 0 2px 8px rgba(103, 58, 183, 0.2);
+}
+
+.btn-expressive:disabled {
+  background-color: #a7a7a7;
+  box-shadow: none;
+  transform: none;
+  color: #e0e0e0;
+}
+
+/* Material 3 Expressive Box */
+.expressive-box {
+  background: linear-gradient(135deg, #fce4ec, #e0f2f7);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 2rem;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15), 0 3px 8px rgba(0,0,0,0.1);
+  color: #3f51b5;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1.5);
+  text-align: center;
+  padding: 1.5rem;
+  word-wrap: break-word;
+  width: 18rem;
+  min-height: 10rem;
+}
+
+.expressive-box:hover {
+  transform: translateY(-5px) scale(1.01);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.2), 0 5px 12px rgba(0,0,0,0.15);
+}
+
+/* Animation for recenter button */
+.bounce-animation {
+  animation: bounce 0.4s cubic-bezier(0.4, 0, 0.2, 1.5);
+}
+
+@keyframes bounce {
+  0% { transform: scale(1); }
+  50% { transform: scale(0.95); }
+  100% { transform: scale(1); }
+}
+
+/* Footer Styling */
+.footer-badge {
+  background-color: rgba(103, 58, 183, 0.1);
+  color: #673ab7;
+  border: 1px solid rgba(103, 58, 183, 0.2);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  padding: 0.5rem 1.25rem;
+  transition: all 0.3s ease;
+}
+
+.footer-badge:hover {
+  background-color: rgba(103, 58, 183, 0.2);
+  transform: translateY(-2px);
+}
